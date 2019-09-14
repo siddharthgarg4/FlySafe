@@ -12,6 +12,7 @@
 		3545DE03232D624B00C406FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE01232D624B00C406FB /* Main.storyboard */; };
 		3545DE05232D624D00C406FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE04232D624D00C406FB /* Assets.xcassets */; };
 		3545DE08232D624D00C406FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE06232D624D00C406FB /* LaunchScreen.storyboard */; };
+		3545DE10232D6D3600C406FB /* AzureFaceRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3545DE04232D624D00C406FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3545DE07232D624D00C406FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3545DE09232D624D00C406FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureFaceRecognition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3545DDFD232D624B00C406FB /* AppDelegate.swift */,
 				3545DDFF232D624B00C406FB /* ViewController.swift */,
+				3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */,
 				3545DE01232D624B00C406FB /* Main.storyboard */,
 				3545DE04232D624D00C406FB /* Assets.xcassets */,
 				3545DE06232D624D00C406FB /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3545DE10232D6D3600C406FB /* AzureFaceRecognition.swift in Sources */,
 				3545DE00232D624B00C406FB /* ViewController.swift in Sources */,
 				3545DDFE232D624B00C406FB /* AppDelegate.swift in Sources */,
 			);
