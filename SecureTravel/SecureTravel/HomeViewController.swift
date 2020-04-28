@@ -13,11 +13,14 @@ import MicroBlink
 class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     let cellIdentifier = "DocumentsCollectionViewCell"
-    let companyNum = 3
-    @IBOutlet weak var documentCollection: UICollectionView!
-    let names = ["passport", "travel", "credit"]
+    var didShowAlert = false
     lazy var blinkIdUI: MBBlinkIDUI = MBBlinkIDUI()
-    let images = [UIImage(named:"passport"), UIImage(named:"tickets"), UIImage(named:"credit card")]
+    let defaults = UserDefaults.standard
+    var names: [String] = []
+    var images: [UIImage] = []
+    let driverLicenseRowIndex = 3
+    
+    @IBOutlet weak var documentCollection: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +30,13 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         documentCollection.dataSource = self
         let nibCell = UINib(nibName: cellIdentifier, bundle: nil)
         documentCollection.register(nibCell, forCellWithReuseIdentifier: cellIdentifier)
+        
+        names = (defaults.array(forKey: AppDelegate.nameKey) as? [String])!
+        let imageNames = (defaults.array(forKey: AppDelegate.imageKey) as? [String])!
+        for imageName in imageNames {
+            images.append(UIImage(named: imageName)!)
+        }
+        
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -34,7 +44,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return companyNum
+        return names.count
     }
 
     @IBAction func goToMaps(_ sender: Any) {
@@ -59,7 +69,12 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //not done by hackathon deadline
+        //only to be done for the driver license
+        if (indexPath.row == driverLicenseRowIndex) {
+            let licenseScreen = LicenseViewController()
+            licenseScreen.modalPresentationStyle = .fullScreen
+            self.present(licenseScreen, animated: true, completion: nil)
+        }
     }
     
     @IBAction func plusButton(_ sender: Any) {
@@ -75,10 +90,20 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
 }
 
+
+
+
 extension HomeViewController: MBBlinkDelegate {
     
     func didStartScanning(withState state: MBScanState) {
         // When scanning starts you will be notified through this method
+        if (!didShowAlert) {
+            let alert = UIAlertController(title: "Important Information", message: "We currently only support drivers license.", preferredStyle: .alert)
+
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            blinkIdUI.recognizerRunnerViewController.present(alert, animated: true, completion: nil)
+            self.didShowAlert = true
+        }
     }
     
     func didScanEntireDocument(recognitionResult: MBRecognitionResult, successFrame: UIImage?) {
@@ -86,12 +111,13 @@ extension HomeViewController: MBBlinkDelegate {
         print(recognitionResult)
         let licenseScreen = LicenseViewController()
         licenseScreen.modalPresentationStyle = .fullScreen
-        self.present(licenseScreen, animated: true, completion: nil)
         
-        // Use recognition Result to present them to the user
-        // After presenting you can finish the scanning by dismissing:
-        // blinkIdUI.recognizerRunnerViewController.dismiss(animated: true, completion: nil)
-        // or you can resumeScanning and restart it:
+        let resultDictionary = recognitionResult.resultEntriesDictionary
+        let licenseNumber = resultDictionary[25] as! BlinkIDUI.MBField
+        let address = resultDictionary[39] as! BlinkIDUI.MBField
+        let cardDetails = CardDetails(name: recognitionResult.resultTitle, address: (address.value?.description ?? "") as String, faceImage: recognitionResult.faceImage ?? UIImage(named: "default")!, licenseNumber: (licenseNumber.value?.description ?? "") as String, signatureImage:  recognitionResult.signatureImage)
+        AppDelegate.driverLicenseDetails = cardDetails
+        blinkIdUI.recognizerRunnerViewController.present(licenseScreen, animated: true, completion: nil)
     }
     
     func didScanFirstSide(recognitionResult: MBRecognitionResult, successFrame: UIImage?) {
@@ -107,9 +133,9 @@ extension HomeViewController: MBBlinkDelegate {
     // Optional
     func didTapCancelButton() {
         // You can set here what happens once the user taps the `X` button on the UI.
-        let licenseScreen = LicenseViewController()
-        licenseScreen.modalPresentationStyle = .fullScreen
-        blinkIdUI.recognizerRunnerViewController.present(licenseScreen, animated: true, completion: nil)
+        let homeScreen = HomeViewController()
+        homeScreen.modalPresentationStyle = .fullScreen
+        blinkIdUI.recognizerRunnerViewController.present(homeScreen, animated: true, completion: nil)
     }
 }
 

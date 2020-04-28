@@ -32,24 +32,24 @@ class CreateFaceAuthenticationViewController: UIViewController, ARSCNViewDelegat
         
         var numScans = 0
         
-//        timer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true, block: { timer in
-//            numScans = numScans + 1
-//            //add pictures to local here
-//            _ = self.camScanner.snapshot()
-//
-//            if (numScans % 2 == 1) {
-//                self.activityIndicator.isHidden = true
-//                self.informationLabel.text = "Please wait while we set up your authentication \(numScans/2)/3."
-//            } else {
-//                self.activityIndicator.isHidden = false
-//                self.informationLabel.text = ""
-//            }
-//
-//            if (numScans > 5) {
-//                self.timer?.invalidate()
-//                self.goToHomeScreen()
-//            }
-//        })
+        timer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true, block: { timer in
+            numScans = numScans + 1
+            //add pictures to local here
+            _ = self.camScanner.snapshot()
+
+            if (numScans % 2 == 1) {
+                self.activityIndicator.isHidden = true
+                self.informationLabel.text = "Please wait while we set up your authentication \(numScans/2)/3."
+            } else {
+                self.activityIndicator.isHidden = false
+                self.informationLabel.text = ""
+            }
+
+            if (numScans > 5) {
+                self.timer?.invalidate()
+                self.goToHomeScreen()
+            }
+        })
         
         _ = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false, block: {timer in
             self.goToHomeScreen()

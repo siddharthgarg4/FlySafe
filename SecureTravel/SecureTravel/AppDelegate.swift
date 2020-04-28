@@ -15,7 +15,14 @@ import GoogleMaps
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let names = ["Passport", "Travel", "Credit"]
+    let images = ["passport", "tickets", "credit card"]
+    let defaults = UserDefaults.standard
+    
+    static let nameKey = "cardNamesKey"
+    static let imageKey = "cardImagesKey"
+    
+    static var driverLicenseDetails: CardDetails? = nil
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
@@ -32,6 +39,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let onboardingVC = OnboardingViewController(backgroundImage: nil, contents: [firstPage, secondPage, thirdPage])
         self.window?.rootViewController = onboardingVC
+        
+        resetUserDefaults()
         return true
     }
 
@@ -55,6 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        resetUserDefaults()
     }
     
     @objc private func goToLogin() {
@@ -62,7 +72,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         loginScreen.modalPresentationStyle = .fullScreen
         self.window?.rootViewController?.present(loginScreen, animated: true, completion: nil)
     }
-
-
+    
+    private func resetUserDefaults() {
+        defaults.set(names, forKey: AppDelegate.nameKey)
+        defaults.set(images, forKey: AppDelegate.imageKey)
+        AppDelegate.driverLicenseDetails = nil
+    }
 }
 
