@@ -6,7 +6,12 @@ target 'SecureTravel' do
   use_frameworks!
 
   # Pods for SecureTravel
-	pod 'Firebase/MLVision'
-	pod 'Firebase/MLVisionFaceModel'
+pod 'MBBlinkIDUI'
+pod 'Onboard'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
+pod 'Alamofire'
+pod 'WSTagsField'
+
 
 end

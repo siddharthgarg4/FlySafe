@@ -50,10 +50,11 @@ class AzureFaceRecognition: NSObject {
         DispatchQueue.global(qos: .background).async {
             let response = self.makePOSTRequest(url: FindSimilarsUrl, postData: data, headers: headers)
             var authenticated = false
-            let minConfidence = 0.4
+            let minConfidence = 0.3
             for info in response {
 //                if let faceId = info["faceId"] as? String  {
                 let confidence = (info["confidence"] as! NSNumber).doubleValue
+                print(confidence)
                 if (confidence >= minConfidence) {
                     print(confidence)
                     authenticated = true

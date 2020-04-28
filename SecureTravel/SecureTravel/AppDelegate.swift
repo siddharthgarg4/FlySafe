@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Onboard
+import GooglePlaces
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
+        GMSServices.provideAPIKey("AIzaSyCkqTawvPSati9mb9jFrnp_SUhsS1Ko_MQ")
+        GMSPlacesClient.provideAPIKey("AIzaSyCkqTawvPSati9mb9jFrnp_SUhsS1Ko_MQ")
+        
+        let firstPage = OnboardingContentViewController(title: nil, body: nil, image: UIImage(named:"onboarding1"), buttonText: nil, action: nil)
+        let secondPage = OnboardingContentViewController(title: nil, body: nil, image: UIImage(named:"onboarding2"), buttonText: nil, action: nil)
+        let thirdPage = OnboardingContentViewController(title: nil, body: nil, image: UIImage(named:"onboarding3"), buttonText: nil, action: nil)
+        thirdPage.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(goToLogin)))
+        
+        let onboardingVC = OnboardingViewController(backgroundImage: nil, contents: [firstPage, secondPage, thirdPage])
+        self.window?.rootViewController = onboardingVC
         return true
     }
 
@@ -39,6 +55,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    @objc private func goToLogin() {
+        let loginScreen = LoginInViewController()
+        loginScreen.modalPresentationStyle = .fullScreen
+        self.window?.rootViewController?.present(loginScreen, animated: true, completion: nil)
     }
 
 

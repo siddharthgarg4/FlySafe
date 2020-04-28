@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         let dataInfo2 = AzureFaceRecognition.shared.syncDetectFaceIds(imageData: (UIImage(named: "2")?.jpegData(compressionQuality: 1))!)
         let dataInfo3 = AzureFaceRecognition.shared.syncDetectFaceIds(imageData: (UIImage(named: "3")?.jpegData(compressionQuality: 1))!)
         let dataInfo4 = AzureFaceRecognition.shared.syncDetectFaceIds(imageData: (UIImage(named: "4")?.jpegData(compressionQuality: 1))!)
-        
+//        let fileURL = Bundle.main.url(forResource: "1", withExtension: "mp3")!
+//        let audioData = NSData(contentsOf: fileURL)
         
         print(dataInfo1)
         print(dataInfo2)
@@ -30,6 +31,8 @@ class ViewController: UIViewController {
             print(authenticated)
         }
     }
+//        AzureVoiceRecognition.shared.syncDetectVoiceId(voiceData: audioData! as Data)
+//    }
 
 }
 

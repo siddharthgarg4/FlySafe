@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (5.1.0)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - MBBlinkIDUI (4.11.0.0):
+    - PPBlinkID (~> 4.11.0)
+  - Onboard (2.3.3)
+  - PPBlinkID (4.11.0)
+  - WSTagsField (5.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - GooglePlaces
+  - MBBlinkIDUI
+  - Onboard
+  - WSTagsField
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - MBBlinkIDUI
+    - Onboard
+    - PPBlinkID
+    - WSTagsField
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  MBBlinkIDUI: 4bd95620b14261c7564af6b391db062835e6e87e
+  Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
+  PPBlinkID: c24034c499bb2264bb4fb3e35257a427678b3d94
+  WSTagsField: d57a287fd552934db1d93a85d38abbf74b067d6a
+
+PODFILE CHECKSUM: 8565a95f5bebe7f8b66ced0b3b029012a54537e1
+
+COCOAPODS: 1.9.1

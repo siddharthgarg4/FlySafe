@@ -3,27 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350138F6232DB7EB006B4EC4 /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350138F4232DB7EB006B4EC4 /* LoginInViewController.swift */; };
+		350138F7232DB7EB006B4EC4 /* LoginInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350138F5232DB7EB006B4EC4 /* LoginInViewController.xib */; };
+		350138FA232DCBEA006B4EC4 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350138F8232DCBEA006B4EC4 /* AuthenticationViewController.swift */; };
+		350138FB232DCBEA006B4EC4 /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350138F9232DCBEA006B4EC4 /* AuthenticationViewController.xib */; };
+		350138FE232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350138FC232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift */; };
+		350138FF232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350138FD232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib */; };
+		35013906232DEABE006B4EC4 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013904232DEABE006B4EC4 /* ScannerViewController.swift */; };
+		35013907232DEABE006B4EC4 /* ScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013905232DEABE006B4EC4 /* ScannerViewController.xib */; };
+		3501390A232DF273006B4EC4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013908232DF273006B4EC4 /* MapViewController.swift */; };
+		3501390B232DF273006B4EC4 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013909232DF273006B4EC4 /* MapViewController.xib */; };
+		3501390E232E07F9006B4EC4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501390C232E07F9006B4EC4 /* HomeViewController.swift */; };
+		3501390F232E07F9006B4EC4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3501390D232E07F9006B4EC4 /* HomeViewController.xib */; };
+		35013912232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013910232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift */; };
+		35013913232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013911232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib */; };
+		35013916232E19F2006B4EC4 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013914232E19F2006B4EC4 /* CurrencyViewController.swift */; };
+		35013917232E19F2006B4EC4 /* CurrencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013915232E19F2006B4EC4 /* CurrencyViewController.xib */; };
+		3501391A232E7F35006B4EC4 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013918232E7F35006B4EC4 /* LicenseViewController.swift */; };
+		3501391B232E7F35006B4EC4 /* LicenseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013919232E7F35006B4EC4 /* LicenseViewController.xib */; };
 		3545DDFE232D624B00C406FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DDFD232D624B00C406FB /* AppDelegate.swift */; };
 		3545DE00232D624B00C406FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DDFF232D624B00C406FB /* ViewController.swift */; };
-		3545DE03232D624B00C406FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE01232D624B00C406FB /* Main.storyboard */; };
 		3545DE05232D624D00C406FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE04232D624D00C406FB /* Assets.xcassets */; };
 		3545DE08232D624D00C406FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE06232D624D00C406FB /* LaunchScreen.storyboard */; };
 		3545DE10232D6D3600C406FB /* AzureFaceRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */; };
+		3545DE38232D9E3000C406FB /* AzureVoiceRecoginition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DE37232D9E3000C406FB /* AzureVoiceRecoginition.swift */; };
+		3545DE3A232DAA6700C406FB /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE39232DAA6700C406FB /* 1.mp3 */; };
+		3568BA0724569C3C00A52125 /* Pods_SecureTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C318F22EBDD724D0EC2D0A57 /* Pods_SecureTravel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350138F4232DB7EB006B4EC4 /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
+		350138F5232DB7EB006B4EC4 /* LoginInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginInViewController.xib; sourceTree = "<group>"; };
+		350138F8232DCBEA006B4EC4 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		350138F9232DCBEA006B4EC4 /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		350138FC232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFaceAuthenticationViewController.swift; sourceTree = "<group>"; };
+		350138FD232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateFaceAuthenticationViewController.xib; sourceTree = "<group>"; };
+		35013904232DEABE006B4EC4 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		35013905232DEABE006B4EC4 /* ScannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScannerViewController.xib; sourceTree = "<group>"; };
+		35013908232DF273006B4EC4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		35013909232DF273006B4EC4 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		3501390C232E07F9006B4EC4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3501390D232E07F9006B4EC4 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		35013910232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		35013911232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentsCollectionViewCell.xib; sourceTree = "<group>"; };
+		35013914232E19F2006B4EC4 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		35013915232E19F2006B4EC4 /* CurrencyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyViewController.xib; sourceTree = "<group>"; };
+		35013918232E7F35006B4EC4 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		35013919232E7F35006B4EC4 /* LicenseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LicenseViewController.xib; sourceTree = "<group>"; };
 		3545DDFA232D624B00C406FB /* SecureTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3545DDFD232D624B00C406FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3545DDFF232D624B00C406FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3545DE02232D624B00C406FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3545DE04232D624D00C406FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3545DE07232D624D00C406FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3545DE09232D624D00C406FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureFaceRecognition.swift; sourceTree = "<group>"; };
+		3545DE37232D9E3000C406FB /* AzureVoiceRecoginition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureVoiceRecoginition.swift; sourceTree = "<group>"; };
+		3545DE39232DAA6700C406FB /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = Audio/1.mp3; sourceTree = "<group>"; };
+		3568BA0A24569C9300A52125 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E261A05E73997E3E4EA85E3 /* Pods-SecureTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureTravel.release.xcconfig"; path = "Target Support Files/Pods-SecureTravel/Pods-SecureTravel.release.xcconfig"; sourceTree = "<group>"; };
+		A8DD2CD5782398E26B7701F5 /* Pods-SecureTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureTravel.debug.xcconfig"; path = "Target Support Files/Pods-SecureTravel/Pods-SecureTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		C318F22EBDD724D0EC2D0A57 /* Pods_SecureTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +74,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3568BA0724569C3C00A52125 /* Pods_SecureTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1245D513804A3374316C3BCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8DD2CD5782398E26B7701F5 /* Pods-SecureTravel.debug.xcconfig */,
+				6E261A05E73997E3E4EA85E3 /* Pods-SecureTravel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2AEBDAE142212EC2F07D0221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3568BA0A24569C9300A52125 /* Alamofire.framework */,
+				C318F22EBDD724D0EC2D0A57 /* Pods_SecureTravel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3545DDF1232D624B00C406FB = {
 			isa = PBXGroup;
 			children = (
 				3545DDFC232D624B00C406FB /* SecureTravel */,
 				3545DDFB232D624B00C406FB /* Products */,
+				1245D513804A3374316C3BCD /* Pods */,
+				2AEBDAE142212EC2F07D0221 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +123,27 @@
 				3545DDFD232D624B00C406FB /* AppDelegate.swift */,
 				3545DDFF232D624B00C406FB /* ViewController.swift */,
 				3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */,
-				3545DE01232D624B00C406FB /* Main.storyboard */,
+				3545DE37232D9E3000C406FB /* AzureVoiceRecoginition.swift */,
+				3545DE39232DAA6700C406FB /* 1.mp3 */,
+				350138F4232DB7EB006B4EC4 /* LoginInViewController.swift */,
+				3501390C232E07F9006B4EC4 /* HomeViewController.swift */,
+				3501390D232E07F9006B4EC4 /* HomeViewController.xib */,
+				35013910232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift */,
+				35013911232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib */,
+				35013914232E19F2006B4EC4 /* CurrencyViewController.swift */,
+				35013915232E19F2006B4EC4 /* CurrencyViewController.xib */,
+				350138F8232DCBEA006B4EC4 /* AuthenticationViewController.swift */,
+				350138F9232DCBEA006B4EC4 /* AuthenticationViewController.xib */,
+				35013904232DEABE006B4EC4 /* ScannerViewController.swift */,
+				35013905232DEABE006B4EC4 /* ScannerViewController.xib */,
+				350138FC232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift */,
+				35013908232DF273006B4EC4 /* MapViewController.swift */,
+				35013909232DF273006B4EC4 /* MapViewController.xib */,
+				350138FD232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib */,
+				350138F5232DB7EB006B4EC4 /* LoginInViewController.xib */,
 				3545DE04232D624D00C406FB /* Assets.xcassets */,
+				35013918232E7F35006B4EC4 /* LicenseViewController.swift */,
+				35013919232E7F35006B4EC4 /* LicenseViewController.xib */,
 				3545DE06232D624D00C406FB /* LaunchScreen.storyboard */,
 				3545DE09232D624D00C406FB /* Info.plist */,
 			);
@@ -74,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3545DE0C232D624D00C406FB /* Build configuration list for PBXNativeTarget "SecureTravel" */;
 			buildPhases = (
+				6AC78A97F94DFEE1BCCB3D30 /* [CP] Check Pods Manifest.lock */,
 				3545DDF6232D624B00C406FB /* Sources */,
 				3545DDF7232D624B00C406FB /* Frameworks */,
 				3545DDF8232D624B00C406FB /* Resources */,
+				3D4D65E70CB8D4D74800E0A3 /* [CP] Embed Pods Frameworks */,
+				6CA0B3630CBCFC40A79F20C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,13 +211,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35013907232DEABE006B4EC4 /* ScannerViewController.xib in Resources */,
+				350138FB232DCBEA006B4EC4 /* AuthenticationViewController.xib in Resources */,
+				3545DE3A232DAA6700C406FB /* 1.mp3 in Resources */,
+				35013917232E19F2006B4EC4 /* CurrencyViewController.xib in Resources */,
+				3501391B232E7F35006B4EC4 /* LicenseViewController.xib in Resources */,
+				3501390B232DF273006B4EC4 /* MapViewController.xib in Resources */,
+				350138F7232DB7EB006B4EC4 /* LoginInViewController.xib in Resources */,
+				35013913232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib in Resources */,
+				350138FF232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib in Resources */,
 				3545DE08232D624D00C406FB /* LaunchScreen.storyboard in Resources */,
 				3545DE05232D624D00C406FB /* Assets.xcassets in Resources */,
-				3545DE03232D624B00C406FB /* Main.storyboard in Resources */,
+				3501390F232E07F9006B4EC4 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D4D65E70CB8D4D74800E0A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureTravel/Pods-SecureTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureTravel/Pods-SecureTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SecureTravel/Pods-SecureTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC78A97F94DFEE1BCCB3D30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA0B3630CBCFC40A79F20C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureTravel/Pods-SecureTravel-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureTravel/Pods-SecureTravel-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SecureTravel/Pods-SecureTravel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3545DDF6232D624B00C406FB /* Sources */ = {
@@ -139,22 +293,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3545DE10232D6D3600C406FB /* AzureFaceRecognition.swift in Sources */,
+				35013916232E19F2006B4EC4 /* CurrencyViewController.swift in Sources */,
+				350138FE232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift in Sources */,
 				3545DE00232D624B00C406FB /* ViewController.swift in Sources */,
+				350138FA232DCBEA006B4EC4 /* AuthenticationViewController.swift in Sources */,
+				3501390A232DF273006B4EC4 /* MapViewController.swift in Sources */,
+				3501390E232E07F9006B4EC4 /* HomeViewController.swift in Sources */,
+				3501391A232E7F35006B4EC4 /* LicenseViewController.swift in Sources */,
+				35013912232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift in Sources */,
+				350138F6232DB7EB006B4EC4 /* LoginInViewController.swift in Sources */,
 				3545DDFE232D624B00C406FB /* AppDelegate.swift in Sources */,
+				3545DE38232D9E3000C406FB /* AzureVoiceRecoginition.swift in Sources */,
+				35013906232DEABE006B4EC4 /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3545DE01232D624B00C406FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3545DE02232D624B00C406FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3545DE06232D624D00C406FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,11 +440,13 @@
 		};
 		3545DE0D232D624D00C406FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DD2CD5782398E26B7701F5 /* Pods-SecureTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DJK64U982;
 				INFOPLIST_FILE = SecureTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +460,13 @@
 		};
 		3545DE0E232D624D00C406FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E261A05E73997E3E4EA85E3 /* Pods-SecureTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DJK64U982;
 				INFOPLIST_FILE = SecureTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
