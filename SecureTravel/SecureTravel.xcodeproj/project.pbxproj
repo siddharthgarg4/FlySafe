@@ -8,52 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		350138F6232DB7EB006B4EC4 /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350138F4232DB7EB006B4EC4 /* LoginInViewController.swift */; };
-		350138F7232DB7EB006B4EC4 /* LoginInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350138F5232DB7EB006B4EC4 /* LoginInViewController.xib */; };
 		350138FA232DCBEA006B4EC4 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350138F8232DCBEA006B4EC4 /* AuthenticationViewController.swift */; };
-		350138FB232DCBEA006B4EC4 /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350138F9232DCBEA006B4EC4 /* AuthenticationViewController.xib */; };
 		350138FE232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350138FC232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift */; };
-		350138FF232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350138FD232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib */; };
-		35013906232DEABE006B4EC4 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013904232DEABE006B4EC4 /* ScannerViewController.swift */; };
-		35013907232DEABE006B4EC4 /* ScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013905232DEABE006B4EC4 /* ScannerViewController.xib */; };
-		3501390A232DF273006B4EC4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013908232DF273006B4EC4 /* MapViewController.swift */; };
-		3501390B232DF273006B4EC4 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013909232DF273006B4EC4 /* MapViewController.xib */; };
 		3501390E232E07F9006B4EC4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501390C232E07F9006B4EC4 /* HomeViewController.swift */; };
-		3501390F232E07F9006B4EC4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3501390D232E07F9006B4EC4 /* HomeViewController.xib */; };
 		35013912232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013910232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift */; };
-		35013913232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013911232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib */; };
 		35013916232E19F2006B4EC4 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013914232E19F2006B4EC4 /* CurrencyViewController.swift */; };
-		35013917232E19F2006B4EC4 /* CurrencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013915232E19F2006B4EC4 /* CurrencyViewController.xib */; };
 		3501391A232E7F35006B4EC4 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35013918232E7F35006B4EC4 /* LicenseViewController.swift */; };
-		3501391B232E7F35006B4EC4 /* LicenseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35013919232E7F35006B4EC4 /* LicenseViewController.xib */; };
+		352129D7245A3335004E99AD /* CardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352129D6245A3335004E99AD /* CardDetails.swift */; };
+		352129E1245A3379004E99AD /* DocumentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129D9245A3379004E99AD /* DocumentsCollectionViewCell.xib */; };
+		352129E2245A3379004E99AD /* CreateFaceAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129DA245A3379004E99AD /* CreateFaceAuthenticationViewController.xib */; };
+		352129E3245A3379004E99AD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129DB245A3379004E99AD /* HomeViewController.xib */; };
+		352129E4245A3379004E99AD /* CurrencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129DC245A3379004E99AD /* CurrencyViewController.xib */; };
+		352129E5245A3379004E99AD /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129DD245A3379004E99AD /* AuthenticationViewController.xib */; };
+		352129E6245A3379004E99AD /* LicenseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129DE245A3379004E99AD /* LicenseViewController.xib */; };
+		352129E7245A3379004E99AD /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129DF245A3379004E99AD /* MapViewController.xib */; };
+		352129E8245A3379004E99AD /* LoginInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352129E0245A3379004E99AD /* LoginInViewController.xib */; };
+		352129EA245A33A0004E99AD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352129E9245A33A0004E99AD /* MapViewController.swift */; };
 		3545DDFE232D624B00C406FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DDFD232D624B00C406FB /* AppDelegate.swift */; };
 		3545DE00232D624B00C406FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DDFF232D624B00C406FB /* ViewController.swift */; };
 		3545DE05232D624D00C406FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE04232D624D00C406FB /* Assets.xcassets */; };
 		3545DE08232D624D00C406FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE06232D624D00C406FB /* LaunchScreen.storyboard */; };
 		3545DE10232D6D3600C406FB /* AzureFaceRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */; };
 		3545DE38232D9E3000C406FB /* AzureVoiceRecoginition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545DE37232D9E3000C406FB /* AzureVoiceRecoginition.swift */; };
-		3545DE3A232DAA6700C406FB /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3545DE39232DAA6700C406FB /* 1.mp3 */; };
 		3568BA0724569C3C00A52125 /* Pods_SecureTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C318F22EBDD724D0EC2D0A57 /* Pods_SecureTravel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		350138F4232DB7EB006B4EC4 /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
-		350138F5232DB7EB006B4EC4 /* LoginInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginInViewController.xib; sourceTree = "<group>"; };
 		350138F8232DCBEA006B4EC4 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
-		350138F9232DCBEA006B4EC4 /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
 		350138FC232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFaceAuthenticationViewController.swift; sourceTree = "<group>"; };
-		350138FD232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateFaceAuthenticationViewController.xib; sourceTree = "<group>"; };
-		35013904232DEABE006B4EC4 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
-		35013905232DEABE006B4EC4 /* ScannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScannerViewController.xib; sourceTree = "<group>"; };
-		35013908232DF273006B4EC4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		35013909232DF273006B4EC4 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		3501390C232E07F9006B4EC4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		3501390D232E07F9006B4EC4 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		35013910232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsCollectionViewCell.swift; sourceTree = "<group>"; };
-		35013911232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentsCollectionViewCell.xib; sourceTree = "<group>"; };
 		35013914232E19F2006B4EC4 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
-		35013915232E19F2006B4EC4 /* CurrencyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyViewController.xib; sourceTree = "<group>"; };
 		35013918232E7F35006B4EC4 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
-		35013919232E7F35006B4EC4 /* LicenseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LicenseViewController.xib; sourceTree = "<group>"; };
+		352129D6245A3335004E99AD /* CardDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetails.swift; sourceTree = "<group>"; };
+		352129D9245A3379004E99AD /* DocumentsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentsCollectionViewCell.xib; sourceTree = "<group>"; };
+		352129DA245A3379004E99AD /* CreateFaceAuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateFaceAuthenticationViewController.xib; sourceTree = "<group>"; };
+		352129DB245A3379004E99AD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		352129DC245A3379004E99AD /* CurrencyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencyViewController.xib; sourceTree = "<group>"; };
+		352129DD245A3379004E99AD /* AuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		352129DE245A3379004E99AD /* LicenseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LicenseViewController.xib; sourceTree = "<group>"; };
+		352129DF245A3379004E99AD /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		352129E0245A3379004E99AD /* LoginInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginInViewController.xib; sourceTree = "<group>"; };
+		352129E9245A33A0004E99AD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3545DDFA232D624B00C406FB /* SecureTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3545DDFD232D624B00C406FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3545DDFF232D624B00C406FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 		3545DE09232D624D00C406FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureFaceRecognition.swift; sourceTree = "<group>"; };
 		3545DE37232D9E3000C406FB /* AzureVoiceRecoginition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureVoiceRecoginition.swift; sourceTree = "<group>"; };
-		3545DE39232DAA6700C406FB /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = Audio/1.mp3; sourceTree = "<group>"; };
 		3568BA0A24569C9300A52125 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E261A05E73997E3E4EA85E3 /* Pods-SecureTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureTravel.release.xcconfig"; path = "Target Support Files/Pods-SecureTravel/Pods-SecureTravel.release.xcconfig"; sourceTree = "<group>"; };
 		A8DD2CD5782398E26B7701F5 /* Pods-SecureTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureTravel.debug.xcconfig"; path = "Target Support Files/Pods-SecureTravel/Pods-SecureTravel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +95,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		352129D8245A3379004E99AD /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				352129D9245A3379004E99AD /* DocumentsCollectionViewCell.xib */,
+				352129DA245A3379004E99AD /* CreateFaceAuthenticationViewController.xib */,
+				352129DB245A3379004E99AD /* HomeViewController.xib */,
+				352129DC245A3379004E99AD /* CurrencyViewController.xib */,
+				352129DD245A3379004E99AD /* AuthenticationViewController.xib */,
+				352129DE245A3379004E99AD /* LicenseViewController.xib */,
+				352129DF245A3379004E99AD /* MapViewController.xib */,
+				352129E0245A3379004E99AD /* LoginInViewController.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		3545DDF1232D624B00C406FB = {
 			isa = PBXGroup;
 			children = (
@@ -124,26 +135,17 @@
 				3545DDFF232D624B00C406FB /* ViewController.swift */,
 				3545DE0F232D6D3600C406FB /* AzureFaceRecognition.swift */,
 				3545DE37232D9E3000C406FB /* AzureVoiceRecoginition.swift */,
-				3545DE39232DAA6700C406FB /* 1.mp3 */,
 				350138F4232DB7EB006B4EC4 /* LoginInViewController.swift */,
+				352129D6245A3335004E99AD /* CardDetails.swift */,
 				3501390C232E07F9006B4EC4 /* HomeViewController.swift */,
-				3501390D232E07F9006B4EC4 /* HomeViewController.xib */,
 				35013910232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift */,
-				35013911232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib */,
 				35013914232E19F2006B4EC4 /* CurrencyViewController.swift */,
-				35013915232E19F2006B4EC4 /* CurrencyViewController.xib */,
+				352129E9245A33A0004E99AD /* MapViewController.swift */,
+				352129D8245A3379004E99AD /* Xibs */,
 				350138F8232DCBEA006B4EC4 /* AuthenticationViewController.swift */,
-				350138F9232DCBEA006B4EC4 /* AuthenticationViewController.xib */,
-				35013904232DEABE006B4EC4 /* ScannerViewController.swift */,
-				35013905232DEABE006B4EC4 /* ScannerViewController.xib */,
 				350138FC232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift */,
-				35013908232DF273006B4EC4 /* MapViewController.swift */,
-				35013909232DF273006B4EC4 /* MapViewController.xib */,
-				350138FD232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib */,
-				350138F5232DB7EB006B4EC4 /* LoginInViewController.xib */,
 				3545DE04232D624D00C406FB /* Assets.xcassets */,
 				35013918232E7F35006B4EC4 /* LicenseViewController.swift */,
-				35013919232E7F35006B4EC4 /* LicenseViewController.xib */,
 				3545DE06232D624D00C406FB /* LaunchScreen.storyboard */,
 				3545DE09232D624D00C406FB /* Info.plist */,
 			);
@@ -211,18 +213,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35013907232DEABE006B4EC4 /* ScannerViewController.xib in Resources */,
-				350138FB232DCBEA006B4EC4 /* AuthenticationViewController.xib in Resources */,
-				3545DE3A232DAA6700C406FB /* 1.mp3 in Resources */,
-				35013917232E19F2006B4EC4 /* CurrencyViewController.xib in Resources */,
-				3501391B232E7F35006B4EC4 /* LicenseViewController.xib in Resources */,
-				3501390B232DF273006B4EC4 /* MapViewController.xib in Resources */,
-				350138F7232DB7EB006B4EC4 /* LoginInViewController.xib in Resources */,
-				35013913232E0D46006B4EC4 /* DocumentsCollectionViewCell.xib in Resources */,
-				350138FF232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.xib in Resources */,
 				3545DE08232D624D00C406FB /* LaunchScreen.storyboard in Resources */,
+				352129E8245A3379004E99AD /* LoginInViewController.xib in Resources */,
+				352129E2245A3379004E99AD /* CreateFaceAuthenticationViewController.xib in Resources */,
+				352129E3245A3379004E99AD /* HomeViewController.xib in Resources */,
+				352129E4245A3379004E99AD /* CurrencyViewController.xib in Resources */,
+				352129E7245A3379004E99AD /* MapViewController.xib in Resources */,
+				352129E6245A3379004E99AD /* LicenseViewController.xib in Resources */,
 				3545DE05232D624D00C406FB /* Assets.xcassets in Resources */,
-				3501390F232E07F9006B4EC4 /* HomeViewController.xib in Resources */,
+				352129E5245A3379004E99AD /* AuthenticationViewController.xib in Resources */,
+				352129E1245A3379004E99AD /* DocumentsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +297,14 @@
 				350138FE232DE1A1006B4EC4 /* CreateFaceAuthenticationViewController.swift in Sources */,
 				3545DE00232D624B00C406FB /* ViewController.swift in Sources */,
 				350138FA232DCBEA006B4EC4 /* AuthenticationViewController.swift in Sources */,
-				3501390A232DF273006B4EC4 /* MapViewController.swift in Sources */,
 				3501390E232E07F9006B4EC4 /* HomeViewController.swift in Sources */,
+				352129EA245A33A0004E99AD /* MapViewController.swift in Sources */,
 				3501391A232E7F35006B4EC4 /* LicenseViewController.swift in Sources */,
 				35013912232E0D46006B4EC4 /* DocumentsCollectionViewCell.swift in Sources */,
 				350138F6232DB7EB006B4EC4 /* LoginInViewController.swift in Sources */,
 				3545DDFE232D624B00C406FB /* AppDelegate.swift in Sources */,
 				3545DE38232D9E3000C406FB /* AzureVoiceRecoginition.swift in Sources */,
-				35013906232DEABE006B4EC4 /* ScannerViewController.swift in Sources */,
+				352129D7245A3335004E99AD /* CardDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

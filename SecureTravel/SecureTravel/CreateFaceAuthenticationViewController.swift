@@ -39,7 +39,7 @@ class CreateFaceAuthenticationViewController: UIViewController, ARSCNViewDelegat
 
             if (numScans % 2 == 1) {
                 self.activityIndicator.isHidden = true
-                self.informationLabel.text = "Please wait while we set up your authentication \(numScans/2)/3."
+                self.informationLabel.text = "Please wait while we set up your authentication \(numScans/2 + 1)/3."
             } else {
                 self.activityIndicator.isHidden = false
                 self.informationLabel.text = ""
@@ -49,10 +49,6 @@ class CreateFaceAuthenticationViewController: UIViewController, ARSCNViewDelegat
                 self.timer?.invalidate()
                 self.goToHomeScreen()
             }
-        })
-        
-        _ = Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false, block: {timer in
-            self.goToHomeScreen()
         })
     }
     

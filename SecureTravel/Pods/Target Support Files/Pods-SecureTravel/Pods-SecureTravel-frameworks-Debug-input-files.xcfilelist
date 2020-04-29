@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SecureTravel/Pods-SecureTravel-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/MBBlinkIDUI/BlinkIDUI.framework
+${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework
+${PODS_ROOT}/PPBlinkID/Microblink.framework
+${BUILT_PRODUCTS_DIR}/WSTagsField/WSTagsField.framework

@@ -1,0 +1,6 @@
+framework module BlinkIDUI {
+  umbrella header "MBBlinkIDUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
