@@ -1,6 +1,6 @@
 # FlySafe
 
-![image](http://u.cubeupload.com/coding_ninja24/merge.jpg)
+![image](http://u.cubeupload.com/coding_ninja24/mergemin.png)
 
 ## Project Description
 
