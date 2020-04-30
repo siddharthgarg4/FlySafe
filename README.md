@@ -8,6 +8,8 @@ While travelling, there are many important items necessary to keep track of secu
 
 Your personal information can be accessed remotely with a facial recognition scan. Additionally, the app allows you to quickly find pertinent locations on the move including hotels, airports, hospitals, and embassies. Finally, the currency tool allows the user to quickly view relevant currency information.
 
+Also with an inbuilt document scanning, the app is able to obtain important information and store documents through scans as compared to user input.
+
 **Core Features** - Face Recognition, Currency Information, Nearby important locations(hospitals etc.), Id Scanning
 
 ## How we built it
@@ -18,7 +20,9 @@ Your personal information can be accessed remotely with a facial recognition sca
 
 **Maps** - Showcase nearby important locations 
 
-**XE Server** - get relevant currency information
+**XE Server, Alamofire** - get relevant currency information
+
+**BlinkID** - Document Scanning
 
 ## Challenges we ran into
 
