@@ -24,6 +24,8 @@ Also with an inbuilt document scanning, the app is able to obtain important info
 
 **BlinkID** - Document Scanning
 
+**Sketch** - Design
+
 ## Challenges we ran into
 
 **BlockChain** - incorporating solidity blockchain framework into the iOS framework
