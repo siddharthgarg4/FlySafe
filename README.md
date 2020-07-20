@@ -1,6 +1,6 @@
 # FlySafe
 
-![image](http://u.cubeupload.com/coding_ninja24/mergemin.png)
+![FlySafe](/resources/flysafe-cover.png?raw=true"FlySafe")
 
 ## Project Description
 
